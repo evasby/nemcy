@@ -1,0 +1,9 @@
+.events_item {
+  *zoom: 1; }
+  .events_item:before, .events_item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .events_item:after {
+    clear: both; }

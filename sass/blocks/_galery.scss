@@ -1,0 +1,50 @@
+.galery{
+	&_item{
+		position: relative;
+		min-height: 100px;
+		margin-bottom: 20px;
+	}
+	&_title{
+		margin-bottom: 10px;
+		a{
+			@include link(#3b3636, #62ccdc);
+			font-family: Open Sans,​sans-serif;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+	&_image{
+		@include clearfix;
+		.link{
+			position: absolute;
+			bottom: 0;
+			left: 180px;
+		}
+	}
+	&_left{
+		float: left;
+	}
+	&_cat{
+		padding-left: 15px;
+		background:transparent url('../images/gallery-bac.jpg') right center no-repeat;
+	}
+	.header-title{
+		padding-top: 15px;
+	}
+	&_p{
+		a{
+			display: inline-block;
+			background-color: #1f3c5e;
+			font-size: 20px;
+			@include link(#fff, #fff);
+			width: 300px;
+			text-align: center;
+			padding: 10px 0;
+			text-decoration: none;
+			&:hover{
+				background-color: lighten(#1f3c5e, 10%);
+			}
+		}
+	}
+}
