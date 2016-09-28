@@ -200,13 +200,14 @@
   overflow: hidden; }
 
 .wfs {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
   margin: 5px 5px 0 6px;
-  width: 170px;
-  height: 43px;
+  width: 102px;
+  height: 27px;
   text-indent: 100%;
   overflow: hidden;
   white-space: nowrap;
   background: url("../images/logoWF.png") no-repeat;
   background-size: contain; }
+  .wfs_descr {
+    margin-left: 6px; }
